@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Разработка сайтов и Telegram-ботов под ключ | Maxim Starodubcev</title>
+  <meta name="description" content="Частный разработчик: сайты-визитки, лендинги, интернет-магазины и Telegram-боты под ключ. Сайты от 10 000 ₽, боты от 5 000 ₽. Общение напрямую, без посредников.">
+  <meta name="theme-color" content="#0f1011">
+
+  <!-- ЗАМЕНИТЕ YOUR-DOMAIN.ru на адрес сайта (или запустите scripts/set-domain.py) -->
+  <link rel="canonical" href="https://YOUR-DOMAIN.ru/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Maxim Starodubcev">
+  <meta property="og:title" content="Сайты и Telegram-боты под ключ для вашего бизнеса">
+  <meta property="og:description" content="От лендинга до интернет-магазина и автоматизации бизнеса. Сайты от 10 000 ₽, Telegram-боты от 5 000 ₽.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.ru/">
+  <meta property="og:image" content="https://YOUR-DOMAIN.ru/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Подтверждение прав (вставьте код из кабинетов, когда будете подключать):
+  <meta name="google-site-verification" content="...">
+  <meta name="yandex-verification" content="...">
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Аналитика (Яндекс Метрика / Google Analytics): вставьте счётчик здесь по согласованию -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Maxim Starodubcev",
+    "url": "https://YOUR-DOMAIN.ru/",
+    "description": "Разработка сайтов и Telegram-ботов под ключ: сайты-визитки, лендинги, корпоративные сайты, интернет-магазины, боты для бизнеса.",
+    "telephone": "+79245880575",
+    "sameAs": ["https://t.me/moonlightdom"],
+    "areaServed": "RU",
+    "serviceType": ["Разработка сайтов", "Разработка Telegram-ботов"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <!-- Иконки -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z"/><path d="M7 7h.01"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14z"/><path d="M6.5 17H20v4H6.5A2.5 2.5 0 0 1 4 18.5"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.5 9a9 9 0 0 1 14.9-3.4L23 10M1 14l4.6 4.4A9 9 0 0 0 20.5 15"/></symbol>
+    <symbol id="i-flow" viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="15" width="6" height="6" rx="1"/><path d="M9 6h4a2 2 0 0 1 2 2v7"/></symbol>
+    <symbol id="i-okc" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+    <symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 13v1.5M15 13v1.5"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="container header-in">
+      <a class="logo" href="#top" aria-label="Maxim Starodubcev — на главную">
+        <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4"/></svg></span>
+        Maxim Starodubcev
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#process">Как работаю</a></li>
+          <li><a href="#seo">SEO</a></li>
+          <li><a href="#prices">Цены</a></li>
+          <li><a href="#faq">Вопросы</a></li>
+        </ul>
+      </nav>
+      <a class="header-phone" href="tel:+79245880575" data-tel>+7 924 588-05-75</a>
+      <a class="btn btn--primary btn--sm header-cta" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу обсудить проект." target="_blank" rel="noopener">Написать в WhatsApp</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+        <svg class="icon i-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon i-close" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 1. ПЕРВЫЙ ЭКРАН ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <h1 id="hero-title">Сайты и Telegram-боты под ключ для вашего бизнеса</h1>
+          <p class="hero-lead">От простого лендинга до интернет-магазина и автоматизации бизнеса. Обсудим задачу, подберём решение и рассчитаем стоимость.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу обсудить проект." target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Обсудить проект
+            </a>
+            <a class="btn btn--ghost" href="#portfolio">Смотреть портфолио</a>
+          </div>
+          <ul class="hero-prices" aria-label="Стартовые цены">
+            <li><b>Сайты — от 10 000 ₽</b><span>Визитки и лендинги</span></li>
+            <li><b>Telegram-боты — от 5 000 ₽</b><span>Простые сценарии</span></li>
+            <li><b>Индивидуальная разработка</b><span>Под задачи вашего бизнеса</span></li>
+          </ul>
+          <p class="hero-direct">
+            <span>Отвечаю лично:</span>
+            <a href="https://t.me/moonlightdom" data-tg target="_blank" rel="noopener">Telegram</a>
+            <a href="tel:+79245880575" data-tel>+7 924 588-05-75</a>
+          </p>
+        </div>
+
+        <div class="stage" aria-hidden="true">
+          <div class="mock-browser">
+            <div class="mb-bar"><i></i><i></i><i></i><span class="mb-url">ваш-сайт.рф</span></div>
+            <div class="mb-body">
+              <div class="mb-nav"><b></b><span></span><span></span><span></span><em></em></div>
+              <div class="mb-hero"><div class="mb-h"></div><div class="mb-h s"></div><div class="mb-p"></div><div class="mb-p s"></div><div class="mb-btn"></div></div>
+              <div class="mb-cards"><div></div><div></div><div></div></div>
+            </div>
+          </div>
+          <div class="mock-phone">
+            <div class="ph-head">
+              <span class="ph-ava"><svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 13v1.5M15 13v1.5"/></svg></span>
+              <div><b>Бот вашего бизнеса</b><small>бот</small></div>
+            </div>
+            <div class="ph-chat">
+              <p class="msg in" style="--d:.7s">Здравствуйте! Чем помочь?</p>
+              <div class="chips" style="--d:1.3s"><span>Узнать цены</span><span>Оставить заявку</span></div>
+              <p class="msg out" style="--d:2.3s">Оставить заявку</p>
+              <p class="msg in" style="--d:3.2s">Напишите, что нужно, и я передам заявку специалисту</p>
+              <p class="msg ok" style="--d:4.3s">Заявка принята</p>
+            </div>
+          </div>
+          <span class="stage-note">Иллюстрация, не реальный проект</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. УСЛУГИ ============ -->
+    <section class="section section--alt" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="services-title">Что я делаю</h2>
+          <p>Две основные группы услуг: сайты и Telegram-боты. Цены стартовые — итоговую стоимость назову после обсуждения задачи.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Группа услуг">
+          <button class="tab" role="tab" id="tab-sites" aria-controls="panel-sites" aria-selected="true" type="button">Разработка сайтов</button>
+          <button class="tab" role="tab" id="tab-bots" aria-controls="panel-bots" aria-selected="false" tabindex="-1" type="button">Telegram-боты</button>
+        </div>
+
+        <!-- САЙТЫ -->
+        <div id="panel-sites" role="tabpanel" aria-labelledby="tab-sites">
+          <div class="cards">
+            <article class="card">
+              <h3>Сайт-визитка</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Несколько страниц: о вас, услуги, контакты. Адаптация под телефон, кнопки связи.</dd></div>
+                <div><dt>Подходит для</dt><dd>Специалистов, мастеров, небольших компаний.</dd></div>
+                <div><dt>Польза</dt><dd>Клиенты быстро находят вас и понимают, чем вы занимаетесь.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 10 000 ₽</div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует сайт-визитка." target="_blank" rel="noopener">Заказать</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Лендинг</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Одна продающая страница: предложение, выгоды, этапы, форма или кнопка заявки.</dd></div>
+                <div><dt>Подходит для</dt><dd>Продажи товара или услуги, рекламных кампаний.</dd></div>
+                <div><dt>Польза</dt><dd>Посетитель видит предложение целиком и может сразу оставить заявку.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 10 000 ₽</div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует лендинг." target="_blank" rel="noopener">Заказать</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Корпоративный сайт</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Многостраничная структура: разделы услуг, о компании, контакты, новости или статьи.</dd></div>
+                <div><dt>Подходит для</dt><dd>Компаний с несколькими услугами или направлениями.</dd></div>
+                <div><dt>Польза</dt><dd>Полная картина о бизнесе и основа для дальнейшего роста сайта.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 15 000 ₽</div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует корпоративный сайт." target="_blank" rel="noopener">Заказать</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Интернет-магазин</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Каталог, карточки товаров, корзина, оформление заказа.</dd></div>
+                <div><dt>Подходит для</dt><dd>Продажи товаров онлайн.</dd></div>
+                <div><dt>Польза</dt><dd>Клиенты выбирают и заказывают без звонков и переписки.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 20 000 ₽<small>оплата, доставка, учёт — отдельно</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует интернет-магазин." target="_blank" rel="noopener">Заказать</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Сайт с интеграциями</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Подключение CRM, платёжных систем, API и сторонних сервисов.</dd></div>
+                <div><dt>Подходит для</dt><dd>Бизнеса, где заявки и оплаты должны попадать в рабочие системы.</dd></div>
+                <div><dt>Польза</dt><dd>Меньше ручной работы, данные не теряются.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 25 000 ₽<small>зависит от сервисов</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует сайт с интеграциями (CRM, оплата, API)." target="_blank" rel="noopener">Заказать</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Индивидуальный веб-проект</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Личные кабинеты, панели управления, сервисы с нестандартной логикой.</dd></div>
+                <div><dt>Подходит для</dt><dd>Задач, под которые нет готового решения.</dd></div>
+                <div><dt>Польза</dt><dd>Продукт, сделанный под ваши процессы, а не наоборот.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 25 000 ₽<small>итог — по техзаданию</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу обсудить индивидуальный веб-проект." target="_blank" rel="noopener">Обсудить</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- БОТЫ -->
+        <div id="panel-bots" role="tabpanel" aria-labelledby="tab-bots" hidden>
+          <div class="cards">
+            <article class="card">
+              <h3>Бот для сбора заявок</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Бот задаёт клиенту вопросы и присылает вам готовую заявку.</dd></div>
+                <div><dt>Подходит для</dt><dd>Услуг, записи, консультаций.</dd></div>
+                <div><dt>Польза</dt><dd>Заявки приходят в мессенджер, а не теряются в переписках.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 5 000 ₽<small>простой сценарий</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует Telegram-бот для сбора заявок." target="_blank" rel="noopener">Заказать</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Бот поддержки клиентов</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Ответы на частые вопросы, передача сложных обращений вам.</dd></div>
+                <div><dt>Подходит для</dt><dd>Бизнеса, который получает много однотипных вопросов.</dd></div>
+                <div><dt>Польза</dt><dd>Клиент получает ответ сразу, вы тратите меньше времени.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">по обсуждению<small>зависит от сценариев</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует Telegram-бот поддержки клиентов." target="_blank" rel="noopener">Обсудить</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Бот для продаж и каталогов</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Каталог товаров или услуг внутри Telegram, выбор и оформление заказа.</dd></div>
+                <div><dt>Подходит для</dt><dd>Небольших магазинов и сервисов.</dd></div>
+                <div><dt>Польза</dt><dd>Клиенту удобно заказать там, где он уже общается.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">по обсуждению<small>зависит от объёма</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует Telegram-бот для продаж и каталога." target="_blank" rel="noopener">Обсудить</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Бот уведомлений</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Сообщения вам или клиентам: о заказах, событиях, напоминаниях.</dd></div>
+                <div><dt>Подходит для</dt><dd>Команд и бизнеса, которым важно ничего не пропустить.</dd></div>
+                <div><dt>Польза</dt><dd>Важные события приходят сразу, без проверки почты и таблиц.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">от 5 000 ₽<small>простой сценарий</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует Telegram-бот уведомлений." target="_blank" rel="noopener">Заказать</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Бот с базой данных</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Хранение пользователей, заказов и других данных, поиск и выгрузка.</dd></div>
+                <div><dt>Подходит для</dt><dd>Задач, где бот должен «помнить» клиентов и историю.</dd></div>
+                <div><dt>Польза</dt><dd>Данные собраны в одном месте и под вашим контролем.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">по обсуждению<small>после уточнения задачи</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует Telegram-бот с базой данных." target="_blank" rel="noopener">Обсудить</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Бот с API и внешними сервисами</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Связь бота с CRM, таблицами, платёжными и другими сервисами.</dd></div>
+                <div><dt>Подходит для</dt><dd>Бизнеса, у которого уже есть рабочие системы.</dd></div>
+                <div><dt>Польза</dt><dd>Бот встраивается в ваши процессы и экономит ручную работу.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">по обсуждению<small>зависит от сервисов</small></div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует Telegram-бот с интеграциями (API, CRM)." target="_blank" rel="noopener">Обсудить</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Бот с личными кабинетами и ролями</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Разные права для клиентов, сотрудников и администраторов, многошаговые сценарии.</dd></div>
+                <div><dt>Подходит для</dt><dd>Сложных процессов внутри компании или сервиса.</dd></div>
+                <div><dt>Польза</dt><dd>Целая система работы в Telegram, а не просто чат-бот.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">индивидуальный расчёт</div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Интересует сложный Telegram-бот (кабинеты, роли)." target="_blank" rel="noopener">Обсудить</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Индивидуальное решение</h3>
+              <dl>
+                <div><dt>Что входит</dt><dd>Бот или система автоматизации под вашу задачу по техзаданию.</dd></div>
+                <div><dt>Подходит для</dt><dd>Нестандартных процессов, которые нужно автоматизировать.</dd></div>
+                <div><dt>Польза</dt><dd>Решение, сделанное именно под ваш бизнес.</dd></div>
+              </dl>
+              <div class="card-foot">
+                <div class="price">индивидуальный расчёт</div>
+                <a class="btn btn--ghost btn--sm" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу обсудить индивидуальное решение на базе Telegram-бота." target="_blank" rel="noopener">Обсудить</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="fine">Все цены стартовые. Итоговая стоимость зависит от функционала, объёма работ и технического задания.</p>
+      </div>
+    </section>
+
+    <!-- ============ 3. ПОРТФОЛИО ============ -->
+    <section class="section" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="portfolio-title">Примеры сайтов и страниц</h2>
+          <p>Подборка примеров разных форматов: от образовательного портала до каталога автомобилей. Там, где на карточке указана моя роль в проекте, это подтверждённая информация.</p>
+        </div>
+
+        <div class="works">
+          <!--
+            КАК УКАЗАТЬ СВОЮ РОЛЬ: в нужной карточке найдите комментарий «РОЛЬ»,
+            уберите с его краёв символы комментария и впишите текст.
+            Пока роль не подтверждена — оставьте как есть.
+          -->
+
+          <article class="work">
+            <div class="pv" aria-hidden="true">
+              <div class="pv-bar"><i></i><i></i><i></i><span>unipage.net</span></div>
+              <div class="pv-art">
+                <div class="t" style="width:70%"></div>
+                <div class="l" style="width:90%"></div>
+                <div class="row c3"><div class="box"><i></i><i></i></div><div class="box"><i></i><i></i></div><div class="box"><i></i><i></i></div></div>
+                <div class="l a" style="width:30%;height:14px"></div>
+              </div>
+              <span class="pv-label">Схема страницы</span>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Образование</span>
+              <h3>Latvian Maritime Academy</h3>
+              <p>Страница вуза на образовательном портале UniPage: информация об академии, стоимости обучения, кампусе и поступлении.</p>
+              <p class="work-meta">Материал для демонстрации. Сайт принадлежит платформе UniPage.</p>
+              <!-- РОЛЬ: <p class="work-meta"><strong>Моя роль:</strong> впишите, что именно вы делали</p> -->
+              <a class="btn btn--ghost btn--sm" href="https://www.unipage.net/ru/6956/latvian_maritime_academy" target="_blank" rel="noopener noreferrer">Посмотреть проект<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </div>
+          </article>
+
+          <article class="work">
+            <div class="pv" aria-hidden="true">
+              <div class="pv-bar"><i></i><i></i><i></i><span>carsoutlet.lv</span></div>
+              <div class="pv-art">
+                <div class="pill-row"><i></i><i></i><i></i><i></i></div>
+                <div class="row c3"><div class="box img"></div><div class="box img"></div><div class="box img"></div></div>
+                <div class="row c3"><div class="box"><i></i><i></i></div><div class="box"><i></i><i></i></div><div class="box"><i></i><i></i></div></div>
+              </div>
+              <span class="pv-label">Схема страницы</span>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Каталог</span>
+              <h3>CarsOutlet — каталог автомобилей</h3>
+              <p>Каталог подержанных автомобилей в Риге: фильтры по марке, модели, году, типу кузова и двигателя, заявка на конкретный автомобиль.</p>
+              <p class="work-meta">Материал для демонстрации. Сайт принадлежит компании CarsOutlet.</p>
+              <!-- РОЛЬ: <p class="work-meta"><strong>Моя роль:</strong> впишите, что именно вы делали</p> -->
+              <a class="btn btn--ghost btn--sm" href="https://carsoutlet.lv/ru/avtokatalog/" target="_blank" rel="noopener noreferrer">Посмотреть проект<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </div>
+          </article>
+
+          <article class="work">
+            <div class="pv" aria-hidden="true">
+              <div class="pv-bar"><i></i><i></i><i></i><span>dr-martin.ru</span></div>
+              <div class="pv-art">
+                <div class="t" style="width:80%"></div>
+                <div class="list-row"><b></b><span></span><em></em></div>
+                <div class="list-row"><b></b><span></span><em></em></div>
+                <div class="list-row"><b></b><span></span><em></em></div>
+                <div class="list-row"><b></b><span></span><em></em></div>
+              </div>
+              <span class="pv-label">Схема страницы</span>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Статья</span>
+              <h3>Материал о сетевых стоматологических клиниках</h3>
+              <p>Обзорная статья о крупных сетях стоматологических клиник России в формате рейтинга.</p>
+              <p class="work-meta">Материал для демонстрации. Сайт принадлежит его владельцу.</p>
+              <!-- РОЛЬ: <p class="work-meta"><strong>Моя роль:</strong> впишите, что именно вы делали</p> -->
+              <a class="btn btn--ghost btn--sm" href="https://dr-martin.ru/article/top-50-stomatologicheskikh-setevykh-klinik-rossii/" target="_blank" rel="noopener noreferrer">Посмотреть проект<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </div>
+          </article>
+
+          <article class="work">
+            <div class="pv" aria-hidden="true">
+              <div class="pv-bar"><i></i><i></i><i></i><span>автоку.рф</span></div>
+              <div class="pv-art">
+                <div class="row c2"><div style="display:grid;gap:8px;align-content:start"><div class="t" style="width:90%"></div><div class="l" style="width:70%"></div><div class="l a" style="width:34%;height:14px"></div></div><div class="box img" style="min-height:64px"></div></div>
+                <div class="row c3"><div class="box"><i></i><i></i></div><div class="box"><i></i><i></i></div><div class="box"><i></i><i></i></div></div>
+              </div>
+              <span class="pv-label">Схема страницы</span>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Автомобили</span>
+              <h3>Автомобили из Японии</h3>
+              <p>Страница об автомобилях из Японии.</p>
+              <p class="work-meta">Материал для демонстрации. Сайт принадлежит его владельцу.</p>
+              <!-- РОЛЬ: <p class="work-meta"><strong>Моя роль:</strong> впишите, что именно вы делали</p> -->
+              <a class="btn btn--ghost btn--sm" href="https://xn--80aeypti.xn--p1ai/avtomobili-iz-yaponii" target="_blank" rel="noopener noreferrer">Посмотреть проект<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. ПОЧЕМУ Я ============ -->
+    <section class="section section--alt" id="why" aria-labelledby="why-title">
+      <div class="container why-grid">
+        <div class="section-head">
+          <h2 id="why-title">Почему стоит обратиться ко мне</h2>
+          <p>Вы работаете с одним человеком от первого разговора до запуска. Без менеджеров, передачи задач между отделами и потерянных деталей.</p>
+        </div>
+        <ul class="why-list">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg><h3>Общение напрямую</h3><p>Все вопросы вы обсуждаете с тем, кто делает проект, без посредников.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg><h3>Индивидуальный подход</h3><p>Решение подбирается под вашу задачу, а не берётся из общего шаблона.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-tag"/></svg><h3>Цена до начала работ</h3><p>Стоимость и функционал согласуются заранее, чтобы не было сюрпризов.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><h3>Понятные объяснения</h3><p>Технические решения объясняю простым языком, без лишнего жаргона.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg><h3>Доработки и развитие</h3><p>После запуска можно обсудить новые функции и дальнейшее развитие проекта.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-flow"/></svg><h3>Под ваши процессы</h3><p>Разрабатываю под конкретные бизнес-процессы: заявки, заказы, уведомления.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-okc"/></svg><h3>Результат согласуется</h3><p>Вы видите, что получается, и вместе принимаем результат.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg><h3>Честные формулировки</h3><p>Не обещаю того, что нельзя гарантировать, например мгновенный топ в поиске.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 5. КАК ПРОХОДИТ РАБОТА ============ -->
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="process-title">Как проходит работа</h2>
+          <p>Пять понятных этапов. На каждом из них вы знаете, что происходит с проектом, и можете задать вопросы.</p>
+        </div>
+        <ol class="steps">
+          <li class="step"><h3>Обсуждаем задачу</h3><p>Выясняем, чего вы хотите добиться и для кого делается проект.</p></li>
+          <li class="step"><h3>Согласуем функционал и цену</h3><p>Определяем, что войдёт в проект, и фиксируем стоимость.</p></li>
+          <li class="step"><h3>Разрабатываю</h3><p>Делаю сайт или Telegram-бота и показываю промежуточный результат.</p></li>
+          <li class="step"><h3>Проверяем и дорабатываем</h3><p>Вместе проверяем работу и исправляю согласованные замечания.</p></li>
+          <li class="step"><h3>Передаю проект</h3><p>Передаю результат и обсуждаем дальнейшую поддержку.</p></li>
+        </ol>
+        <p class="steps-note">Условия работы, порядок оплаты и сроки обсуждаются индивидуально и согласуются до начала разработки.</p>
+      </div>
+    </section>
+
+    <!-- ============ 6. SEO ============ -->
+    <section class="section section--alt" id="seo" aria-labelledby="seo-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="seo-title">Не просто сайт, а инструмент привлечения клиентов</h2>
+          <p>Сайт, который хорошо сделан технически, проще находить и продвигать. При разработке можно заложить основу для поиска клиентов.</p>
+        </div>
+
+        <div class="seo-grid">
+          <div class="panel">
+            <h3>Что можно предусмотреть при разработке</h3>
+            <ul class="ticks">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>SEO-friendly структуру страниц</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Корректные заголовки и метатеги</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>ЧПУ и логичную структуру адресов</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Sitemap.xml и robots.txt</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Оптимизацию скорости загрузки</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Адаптацию под мобильные устройства</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Корректное отображение в поисковых системах</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Подготовку страниц к дальнейшему SEO-продвижению</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Подключение аналитики и отслеживания заявок по согласованию</li>
+            </ul>
+          </div>
+
+          <div style="display:grid;gap:22px;align-content:start">
+            <div class="panel panel--muted">
+              <h3>Техническая SEO-подготовка</h3>
+              <p>Делается при создании сайта. Это фундамент: поисковые системы могут корректно прочитать и показать ваши страницы.</p>
+            </div>
+            <div class="panel panel--muted">
+              <h3>Полноценное продвижение</h3>
+              <p>Отдельная регулярная работа: подбор запросов, тексты, наполнение сайта, ссылки, анализ результатов. Это не входит в разработку автоматически и обсуждается отдельно.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="seo-note"><strong>Честно о результатах.</strong> Я не обещаю первое место в Google или Яндексе и мгновенное попадание в топ. Позиции зависят от конкуренции, содержания сайта, его технического состояния, ссылок, спроса и регулярной работы над ним.</p>
+
+        <div class="seo-cta">
+          <a class="btn btn--primary" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу обсудить продвижение сайта." target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Обсудить продвижение
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. ОТЗЫВЫ ============
+         Блок скрыт, пока в #reviews-list нет ни одной карточки.
+         Чтобы добавить настоящий отзыв, вставьте внутрь #reviews-list такой код:
+
+         <figure class="review">
+           <blockquote><p>Текст отзыва клиента</p></blockquote>
+           <figcaption><strong>Имя клиента</strong>Компания или проект</figcaption>
+           <a href="ССЫЛКА_НА_ОРИГИНАЛ_ОТЗЫВА" target="_blank" rel="noopener noreferrer">Оригинал отзыва</a>
+         </figure>
+
+         Добавляйте только реальные отзывы и только с разрешения клиента.
+         Посмотреть, как выглядит блок до заполнения: откройте сайт с ?reviews=preview
+    -->
+    <section class="section" id="reviews" aria-labelledby="reviews-title" hidden>
+      <div class="container">
+        <div class="section-head">
+          <h2 id="reviews-title">Отзывы клиентов</h2>
+        </div>
+        <div class="reviews" id="reviews-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ 8. ЦЕНЫ ============ -->
+    <section class="section" id="prices" aria-labelledby="prices-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="prices-title">Цены</h2>
+          <p>Указана стартовая стоимость. Она зависит от технического задания, поэтому точную цифру назову после обсуждения задачи.</p>
+        </div>
+
+        <div class="price-grid">
+          <div class="panel">
+            <h3>Сайты</h3>
+            <ul class="price-list">
+              <li><span>Сайт-визитка</span><b>от 10 000 ₽</b></li>
+              <li><span>Лендинг</span><b>от 10 000 ₽</b></li>
+              <li><span>Корпоративный сайт</span><b>от 15 000 ₽</b></li>
+              <li><span>Интернет-магазин</span><b>от 20 000 ₽</b></li>
+              <li><span>Сложные проекты и интеграции</span><b>от 25 000 ₽</b></li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Telegram-боты</h3>
+            <ul class="price-list">
+              <li><span>Простой бот</span><b>от 5 000 ₽</b></li>
+              <li><span>Бот с базой данных и интеграциями</span><b class="ind">индивидуальный расчёт</b></li>
+              <li><span>Сложный бот с бизнес-логикой</span><b class="ind">индивидуальный расчёт</b></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="price-foot">
+          <p>В стартовую цену входит базовый объём работ. Интеграции, оплата, личные кабинеты, сложный каталог и другие дополнительные функции в неё автоматически не включены и оцениваются отдельно.</p>
+          <a class="btn btn--primary" href="#calculator">Рассчитать стоимость</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ КАЛЬКУЛЯТОР ============ -->
+    <section class="section section--alt" id="calculator" aria-labelledby="calc-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="calc-title">Предварительный расчёт</h2>
+          <p>Выберите тип проекта и нужные функции. Калькулятор покажет ориентир, а заявку можно сразу отправить в WhatsApp с готовым текстом.</p>
+        </div>
+
+        <div class="calc">
+          <div class="calc-form">
+            <fieldset>
+              <legend>1. Что нужно сделать</legend>
+              <div class="calc-types" id="calc-types"></div>
+            </fieldset>
+            <fieldset>
+              <legend>2. Функции и интеграции</legend>
+              <div class="calc-feats" id="calc-feats"><p class="feat-empty">Сначала выберите тип проекта.</p></div>
+            </fieldset>
+            <div class="field">
+              <label for="calc-note">3. О задаче (необязательно)</label>
+              <textarea id="calc-note" maxlength="500" placeholder="Например: нужен сайт для студии, чтобы клиенты записывались онлайн"></textarea>
+              <small>До 500 символов. Текст попадёт в сообщение, которое вы сами отправите мне.</small>
+            </div>
+            <noscript><p class="fine">Для калькулятора нужен JavaScript. Вы можете просто <a href="https://wa.me/79245880575">написать мне в WhatsApp</a>.</p></noscript>
+          </div>
+
+          <aside class="calc-result" aria-labelledby="calc-res-title">
+            <h3 id="calc-res-title">Ориентировочная стоимость</h3>
+            <div aria-live="polite" id="calc-live">
+              <div class="res-main" id="res-main">Выберите тип проекта</div>
+              <p class="res-text" id="res-text">Мы покажем ориентир по выбранным параметрам.</p>
+              <ul class="res-list" id="res-list" hidden></ul>
+            </div>
+            <div class="res-actions">
+              <a class="btn btn--primary btn--block" id="calc-wa" href="https://wa.me/79245880575" target="_blank" rel="noopener" aria-disabled="true">
+                <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Отправить заявку в WhatsApp
+              </a>
+              <a class="btn btn--ghost btn--block" id="calc-tg" href="https://t.me/moonlightdom" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>Написать в Telegram
+              </a>
+              <button class="btn btn--ghost btn--block" id="calc-copy" type="button">
+                <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>Скопировать текст заявки
+              </button>
+            </div>
+            <p class="calc-error" id="calc-error" role="alert"></p>
+            <p class="calc-status" id="calc-status" role="status"></p>
+            <p class="res-alt">Ничего не отправляется на сервер. WhatsApp откроется с готовым текстом, а для Telegram скопируйте текст и вставьте его в чат.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. FAQ ============ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="faq-title">Частые вопросы</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Сколько стоит разработка сайта?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Стартовые цены: сайт-визитка и лендинг от 10 000 ₽, корпоративный сайт от 15 000 ₽, интернет-магазин от 20 000 ₽, сложные сайты и интеграции от 25 000 ₽. Итоговая стоимость зависит от функционала, объёма и технического задания. Я называю её до начала работ.</p></div>
+          </details>
+          <details>
+            <summary>Сколько стоит Telegram-бот?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Простые боты стоят от 5 000 ₽. Боты со сценариями, формами, базами данных и интеграциями рассчитываются после обсуждения задачи. Сложные автоматизированные системы оцениваются индивидуально.</p></div>
+          </details>
+          <details>
+            <summary>Сколько времени занимает разработка?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Срок зависит от типа проекта и объёма работ. Конкретные сроки я называю после обсуждения задачи и согласую с вами до начала разработки.</p></div>
+          </details>
+          <details>
+            <summary>Можно ли заказать сайт с нуля?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Да. Мы обсуждаем задачу, структуру и функции, и я создаю сайт с самого начала. Если у вас есть примеры сайтов, которые нравятся, пришлите их — это поможет быстрее договориться о результате.</p></div>
+          </details>
+          <details>
+            <summary>Можно ли подключить CRM, оплату или сторонние API?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Да, во многих случаях можно. Возможность и сложность зависят от конкретного сервиса и его условий. Такие интеграции оцениваются отдельно и не всегда входят в стартовую цену. Расскажите, что нужно подключить, и я отвечу, как это сделать.</p></div>
+          </details>
+          <details>
+            <summary>Будет ли сайт адаптирован под телефон?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Да, сайты делаются адаптивными: они корректно отображаются на смартфонах, планшетах и компьютерах.</p></div>
+          </details>
+          <details>
+            <summary>Можно ли продвигать сайт в Google и Яндексе?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Да. При разработке я могу заложить техническую SEO-основу. Само продвижение — отдельная регулярная работа, и результат зависит от конкуренции, содержания сайта и других факторов. Гарантировать конкретные позиции нельзя.</p></div>
+          </details>
+          <details>
+            <summary>Что нужно от меня для начала работы?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Расскажите о задаче и о вашем бизнесе. Если есть, пришлите логотип, тексты, фотографии и примеры сайтов, которые нравятся. Если чего-то нет, это не помеха: обсудим, как поступить.</p></div>
+          </details>
+          <details>
+            <summary>Можно ли доработать существующий сайт или бота?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Да, возможно. Нужно сначала посмотреть проект и понять, на чём он сделан. После этого я скажу, что можно доработать и сколько это будет стоить.</p></div>
+          </details>
+          <details>
+            <summary>Как происходит оплата?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>Порядок и способ оплаты мы обсуждаем и согласуем до начала работ, вместе с стоимостью и составом проекта.</p></div>
+          </details>
+          <details>
+            <summary>Будет ли техническая поддержка после запуска?<svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+            <div class="ans"><p>После запуска можно обсудить доработки и поддержку проекта. Условия согласуются заранее и зависят от того, что именно нужно.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10. ФИНАЛЬНЫЙ ПРИЗЫВ ============ -->
+    <section class="section final" id="contact" aria-labelledby="final-title" style="padding-top:0">
+      <div class="container">
+        <div class="final-box">
+          <h2 id="final-title">Есть идея? Давайте превратим её в работающий проект</h2>
+          <p>Расскажите, что вам нужно, — обсудим варианты реализации и предварительную стоимость.</p>
+          <div class="final-actions">
+            <a class="btn btn--primary" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу заказать сайт." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Заказать сайт</a>
+            <a class="btn btn--primary" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу заказать Telegram-бота." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-bot"/></svg>Заказать Telegram-бота</a>
+            <a class="btn btn--ghost" href="https://t.me/moonlightdom" data-tg target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>Написать в Telegram</a>
+          </div>
+          <p class="final-phone">Или позвоните: <a href="tel:+79245880575" data-tel>+7 924 588-05-75</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 11. ПОДВАЛ ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <a class="logo" href="#top"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4"/></svg></span>Maxim Starodubcev</a>
+          <p>Разработка сайтов и Telegram-ботов под ключ: от лендинга до интернет-магазина и автоматизации бизнеса.</p>
+        </div>
+        <div>
+          <h3>Разделы</h3>
+          <ul>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#process">Как работаю</a></li>
+            <li><a href="#seo">SEO</a></li>
+            <li><a href="#prices">Цены</a></li>
+            <li><a href="#faq">Вопросы</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Контакты</h3>
+          <ul>
+            <li><a href="tel:+79245880575" data-tel>+7 924 588-05-75</a></li>
+            <li><a href="https://wa.me/79245880575" data-wa target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://t.me/moonlightdom" data-tg target="_blank" rel="noopener">Telegram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year">2026</span> Maxim Starodubcev. Все права защищены.</span>
+        <a href="privacy/">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Быстрые действия на телефоне -->
+  <div class="quickbar">
+    <a class="btn btn--primary" href="https://wa.me/79245880575" data-wa data-wa-text="Здравствуйте! Хочу обсудить проект." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp</a>
+    <a class="btn btn--ghost" href="https://t.me/moonlightdom" data-tg target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>Telegram</a>
+    <a class="btn btn--ghost" href="tel:+79245880575" data-tel aria-label="Позвонить"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Звонок</a>
+  </div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
